@@ -11,6 +11,7 @@ import {defineUserConfig} from 'vuepress'
 
 export default defineUserConfig(
     {
+        base: '/lindon.github.io/',
         bundler: viteBundler(),
         theme: defaultTheme({
             navbar: [{text: '首页', link: '/',}, {
